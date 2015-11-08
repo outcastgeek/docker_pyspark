@@ -1,4 +1,4 @@
-learning_pyspark:
+docker_pyspark:
   build: .
   restart: always
   ports:
@@ -6,4 +6,3 @@ learning_pyspark:
     - "8888:8888"
   volumes:
     - .:/workspace
-
