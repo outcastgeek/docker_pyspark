@@ -1,0 +1,9 @@
+learning_pyspark:
+  build: .
+  restart: always
+  ports:
+    - "4040:4040"
+    - "8888:8888"
+  volumes:
+    - .:/workspace
+
